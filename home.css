@@ -1,0 +1,38 @@
+body {
+  background-image: url('qui.jpg');
+  background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .quiz-container {
+    max-width: 1100px;
+    background-color: #61bcfc;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px rgba(216, 26, 26, 0.2);
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+  }
+  button {
+    height: 50px;
+    font-size: 16px;
+    font-style: oblique;
+    background-color: #808181;
+    border: 5px;
+    border-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2998ba;
+  }
+  
+  
